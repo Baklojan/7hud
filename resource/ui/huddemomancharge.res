@@ -5,28 +5,29 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"			"0"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"118"
-		"tall"			"9"
-		"pinCorner"				"2"
+		"wide"			"30"	//118
+		"tall"			"5"		//9
+		"pinCorner"				"0" 	//0
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override" "MeterText3"
+		"fgcolor_override" "0 0 0 255" 	//MeterText3
 		"labelText"				"CHARGE"
 		"textAlignment"			"center"
 		"font"					"Regular6"
 	}	
+	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"118"
-		"tall"			"2"				
+		"wide"			"30"	//118
+		"tall"			"6"		//2			
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

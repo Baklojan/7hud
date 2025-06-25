@@ -18,8 +18,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-199"				//c-206
-		"ypos"			"395"				//r151
+		"xpos"			"c-180"		//c-199
+		"ypos"			"386"				//r151
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"29"
@@ -35,11 +35,11 @@
 	{
 		"ControlName"	 	"CExLabel"
 		"fieldname"	 		"DamageAccountValueShadow"
-		"xpos"	 			"c-198"
+		"xpos"	 			"c-179"
 		"ypos"	 			"396"
 		"wide"	 			"100"
 		"tall"	 			"29"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"

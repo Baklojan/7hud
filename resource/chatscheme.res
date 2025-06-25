@@ -425,7 +425,7 @@ Scheme
 
 		FrameBorder
 		{
-			"backgroundtype"	"2"
+			"backgroundtype"	"0"
 		}
 
 		DepressedBorder

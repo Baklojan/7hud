@@ -65,6 +65,14 @@ Scheme
 		
 		"Underline"			"0 0 0 0"				//Blank base color for HP and ammo underline
 		
+		// Crosshairs
+		
+		"G_Crosshair1Color"		"255 255 255 255"	// Crosshair1 color
+		"G_Crosshair2Color"		"254 160 0 255" 	// Crosshair2 color
+		"G_Crosshair3Color"		"255 255 255 255" 	// Crosshair3 color
+		"G_Hitmarker1Color"		"255 0 0 255" 	// Hitmarker1 color
+		"G_Hitmarker2Color"		"255 0 0 255" 	// Hitmarker2 color
+		"G_Hitmarker3Color"		"255 0 0 255" 	// Hitmarker3 color
 		
 		// Base HUD Colors		
 		
@@ -856,8 +864,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"9"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
 				"antialias" 	"1"
@@ -3793,20 +3801,10 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Book"
-                "tall"		"24"
-                "weight"    "500"
-                "yres"      "1 1199"
+				"tall"		"22"
 				"additive"	"0"
-				"antialias"	"1"
+				"antialias" "1"
 			}
-			"2" // Misyl: Proportional
-            {
-                "name"      "AvenirLTStd-Book"
-                "tall"      "10"
-                "weight"    "500"
-                "additive"  "0"
-                "antialias" "1"
-            }
 		}
 		"HudFontMediumBold"
 		{
@@ -4317,49 +4315,49 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"20"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"30"
 				"antialias"	"1"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"antialias"	"1"
 				"italic"	"1"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"antialias"	"1"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"antialias"	"1"
 				"italic"	"1"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"16"
 				"antialias"	"1"
 				"dropshadow"	"1"

@@ -45,6 +45,7 @@
 		"pinCorner"				"2"
 		"visible"				"0"
 		"enabled"				"0"
+		"fgcolor_override" "0 0 0 255"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"

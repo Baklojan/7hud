@@ -631,7 +631,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
-			"labelText"		"v5.12"
+			"labelText"		"V5.10"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2110,7 +2110,7 @@
 		"zpos"			"5"
 		"wide"			"155"
 		"tall"			"63"
-		"visible"		"0"
+		"visible"		"1"
 
 		"bgcolor_override"	"0 0 0 0"
 		"border"		"noborder"

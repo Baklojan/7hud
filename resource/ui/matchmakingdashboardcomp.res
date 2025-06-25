@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f60"
+		"tall"			"f70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -24,7 +24,7 @@
 		"wide"		"f0"
 		"tall"		"25"
 		"proportionaltoparent"	"1"
-		"labeltext"		"" //#TF_Matchmaking_HeaderCompetitive
+		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor_override"	"TanDark"
@@ -36,8 +36,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"rs1-18"
-		"ypos"			"25"
+		"xpos"			"rs1-21"
+		"ypos"			"20"
 		"zpos"			"100"
 		"wide"			"15"
 		"tall"			"o1"
@@ -63,8 +63,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"15"
-		"ypos"			"28"
+		"xpos"			"5"
+		"ypos"			"40"
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
@@ -79,11 +79,11 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-1"
+		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"305"
-		"tall"			"f0"
+		"tall"			"f80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

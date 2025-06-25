@@ -543,10 +543,10 @@
 			}	
 		}		
 	}	
-	"7HUD"
+	"BakloHUD"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"7HUD"
+		"fieldname"		"BakloHUD"
 		"xpos"			"53"
 		"ypos"			"65"
 		"zpos"			"11"
@@ -631,7 +631,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
-			"labelText"		"v5.12"
+			"labelText"		"V5.11"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -922,7 +922,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 					
@@ -930,31 +930,30 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-99"
-		"wide"			"256"
+		"xpos"			"c-290"
+		"ypos"			"24"
+		"zpos"			"1"
+		"wide"			"512"
 		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
 	}	
 	
 	"TFCharacterImage"
-	{
-		// "ControlName"	"ImagePanel"
-		"fieldName"		"TFCharacterImage"
-		"xpos"			"r605"			
-		"ypos"			"-22"
-		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-	}
+    {
+        //"ControlName" "ImagePanel"
+        "fieldName"     "TFCharacterImage"
+        "xpos"          "c-250"
+        "ypos"          "-80"
+        "zpos"          "-99"
+        "wide"          "600"
+        "tall"          "600"
+        "visible"       "1"
+        "enabled"       "1"
+        "scaleImage"    "1"
+    }
 	
 	"RankModelPanel"
 	{
@@ -3169,7 +3168,7 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}								
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"

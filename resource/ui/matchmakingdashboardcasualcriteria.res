@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f60"
+		"tall"			"f70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -24,7 +24,7 @@
 		"wide"		"f0"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
-		"labeltext"		"" //#TF_Matchmaking_HeaderCasual
+		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor_override"	"TanDark"
@@ -36,11 +36,11 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"0"
-		"ypos"			"-25"
+		"xpos"			"-3"
+		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f10"
+		"tall"			"f73"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

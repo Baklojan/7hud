@@ -972,20 +972,6 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	"CurrencyStatusPanel"
-	{
-		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"244"
-		"ypos"				"r160"
-		"wide"				"100"
-		"tall"				"100"
-		"visible" 			"0"
-		"enabled" 			"1"
-		
-		"PaintBackgroundType"	"2"
-	}
-	
 	HudProgressBar
 	{
 		"fieldName" "HudProgressBar"
@@ -1596,10 +1582,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-59"	
+		"xpos"			"0"	//c-59
 		"ypos"			"r155"	
-		"wide"			"118"
-		"tall"			"60"
+		"wide"			"1920"	//118
+		"tall"			"1080"	//60
 	}	
 
 	HudTeamGoal

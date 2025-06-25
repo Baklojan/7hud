@@ -76,21 +76,21 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			"c-8"	
-		"ypos"			"c137"
-		"zpos"					"2"
-		"wide"					"90"
-		"tall"					"26"	
+		"xpos"			"c-10"	//c-45
+		"ypos"			"c-20"	//c-19
+		"zpos"			"2"
+		"wide"			"40"
+		"tall"			"40"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"White"
-		"font"				"Heavy19"
+		"fgcolor"				"White"
+		"font"					"Regular6O"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -103,14 +103,14 @@
 		"wide"					"90"
 		"tall"					"26"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		"HudShadow"
-		"font"				"Heavy19"
+		"font"				"Regular6O"
 	}	
 }

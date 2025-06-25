@@ -38,6 +38,7 @@
 		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Health"
 	}
+	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	 "CExLabel"	
@@ -234,7 +235,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"15"
 		"ypos"			"1360"	//136
-		"zpos"			"3"
+		"zpos"			"1"
 		"wide"			"46"	
 		"tall"			"46"
 		"visible"		"0"

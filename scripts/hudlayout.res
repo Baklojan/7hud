@@ -733,13 +733,12 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"		//c-59
-		"ypos"			"0"		//r120
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"2000"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"c-15"	//c-59
+		"ypos"			"c20"	//r133
+		"wide"			"30"
+		"tall"			"6"
 	}
 	
 	HudMedicCharge
@@ -760,11 +759,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-59"
-		"ypos"			"r129"	//r133
+		"xpos"			"c-15"	//c-59
+		"ypos"			"c18"	//r133
 		"zpos"			"2"
-		"wide"			"118"
-		"tall"			"10"
+		"wide"			"30"
+		"tall"			"6"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -772,8 +771,8 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"xpos"			"c-59"
 		"ypos"			"r133"
 		"zpos"			"2"
@@ -971,20 +970,6 @@
 		
 		"PaintBackgroundType"	"2"
 	}
-	
-	"CurrencyStatusPanel"
-	{
-		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"244"
-		"ypos"				"r160"
-		"wide"				"100"
-		"tall"				"100"
-		"visible" 			"0"
-		"enabled" 			"1"
-		
-		"PaintBackgroundType"	"2"
-	}	
 	
 	HudProgressBar
 	{
@@ -1596,10 +1581,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-59"	
-		"ypos"			"r155"	
-		"wide"			"118"
-		"tall"			"60"
+		"xpos"			"c-30"	//c-65
+		"ypos"			"c-20"	//c-25
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"40"	
 	}	
 
 	HudTeamGoal
@@ -2053,5 +2039,21 @@ ItemQuickSwitchPanel
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
-	}	
+	}
+	
+	"TransparentViewmodelMask"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"	"1"
+	}
 }
