@@ -23,7 +23,7 @@
 		"enabled"			"1"
 		
 		"xpos"				"35"
-		"ypos"				"18"
+		"ypos"				"10"
 		"zpos"				"2"
 		
 		"wide"				"30"
@@ -44,7 +44,7 @@
 		"enabled"			"1"
 		
 		"xpos"				"35"
-		"ypos"				"18"
+		"ypos"				"10"
 		"zpos"				"3"
 		
 		"wide"				"30"

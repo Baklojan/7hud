@@ -81,7 +81,6 @@
 		"brighttext"		"0"
 	}
 
-
 	// Eyelander heads counter
 	"ItemEffectMeterCount"
 	{

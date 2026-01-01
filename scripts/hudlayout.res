@@ -753,20 +753,6 @@
 		"tall"			"600"		//100
 		"MeterFG"		"White"
 		"MeterBG"		"Black"
-	}	
-
-	HudBowCharge
-	{
-		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-59"
-		"ypos"			"r133"
-		"zpos"			"2"
-		"wide"			"118"
-		"tall"			"10"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
 	}
 
 	HudFlameRocketCharge
