@@ -1,40 +1,59 @@
 "Resource/UI/HudDemomanCharge.res"
 {
-	"ChargeLabel"
+	HudDemomanCharge
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabel"
-		"xpos"			"0"
-		"ypos"			"2"
-		"zpos"			"3"
-		"wide"			"118"
-		"tall"			"9"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"fgcolor_override" "MeterText3"
-		"labelText"				"CHARGE"
-		"textAlignment"			"center"
-		"font"					"Regular6"
-	}	
-	"ChargeMeter"
-	{	
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ChargeMeter"
-		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"2"
-		"wide"			"118"
-		"tall"			"2"				
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"fieldName"		"HudDemomanCharge"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
-		"bgcolor_override" "0 0 0 175"
-		"fgcolor_override" "Garm3nMeter"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}					
+		
+		"xpos"			"c-50"
+		"ypos"			"c0"
+		
+		"wide"			"100"
+		"tall"			"50"
+	}
+	
+	"ChargeMeter"
+	{	
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"			"ChargeMeter"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"xpos"				"35"
+		"ypos"				"18"
+		"zpos"				"2"
+		
+		"wide"				"30"
+		"tall"				"6"
+		
+		"bgcolor_override"	"0 0 0 175"
+		
+		"autoResize"		"0"
+		"pinCorner"			"0"
+	}
+	
+	"ChargeLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ChargeLabel"
+		
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"xpos"				"35"
+		"ypos"				"18"
+		"zpos"				"3"
+		
+		"wide"				"30"
+		"tall"				"6"
+		
+		"pinCorner"			"0"
+		"fgcolor_override"	"0 0 0 255"
+		"labelText"			"CHARGE"
+		"textAlignment"		"center"
+		"font"				"regular6"
+	}	
 }

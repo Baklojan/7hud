@@ -753,20 +753,6 @@
 		"tall"			"600"		//100
 		"MeterFG"		"White"
 		"MeterBG"		"Black"
-	}
-	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-59"
-		"ypos"			"r129"	//r133
-		"zpos"			"2"
-		"wide"			"118"
-		"tall"			"10"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
 	}	
 
 	HudBowCharge
@@ -1575,18 +1561,7 @@
 		"wide"			"470"
 		"tall"			"200"	
 		"PaintBackgroundType"	"0"
-	}	
-	
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-59"	
-		"ypos"			"r155"	
-		"wide"			"118"
-		"tall"			"60"
-	}	
+	}
 
 	HudTeamGoal
 	{
