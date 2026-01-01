@@ -2,16 +2,16 @@
 {
 	HudDemomanCharge
 	{
-		"fieldName"		"HudDemomanCharge"
+		"fieldName"			"HudDemomanCharge"
 		
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"			"1"
+		"enabled"			"1"
 		
-		"xpos"			"c-50"
-		"ypos"			"c0"
+		"xpos"				"c-50"
+		"ypos"				"c0"
 		
-		"wide"			"100"
-		"tall"			"50"
+		"wide"				"100"
+		"tall"				"50"
 	}
 	
 	"ChargeMeter"
