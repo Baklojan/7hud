@@ -34,7 +34,6 @@
 		"textAlignment"		"Left"
 		"font"				"Default"
 		"bgcolor_override"	"0 0 0 175"
-		"fgcolor_override"	"White"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}		

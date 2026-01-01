@@ -26,8 +26,8 @@
 		"ypos"				"0"
 		"zpos"				"0"
 		
-		"wide"				"76"
-		"tall"				"44"
+		"wide"				"30"
+		"tall"				"6"
 		
 		"image"				"../hud/misc_ammo_area_blue"
 		"scaleImage"		"1"	
@@ -92,6 +92,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterCount"
+		
 		"visible"			"1"
 		"enabled"			"1"
 		
@@ -108,7 +109,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"white"
 		"font"				"regular6o"
 	}
 	

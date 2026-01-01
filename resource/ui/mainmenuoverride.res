@@ -700,7 +700,7 @@
 			"textinsetx"				"0"
 			"use_proportional_insets"	"1"
 			"font"						"VersionFont2"
-			"labelText"					"v0.3"
+			"labelText"					"v0.4"
 			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -985,13 +985,21 @@
 		{
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
+		}
+		if_christmas_1
+		{
+			"image"		"../console/background_xmas2023_widescreen"
 		}
 	}
 					

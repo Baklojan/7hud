@@ -30,6 +30,7 @@
 		"tall"				"6"
 		
 		"bgcolor_override"	"0 0 0 175"
+		"fgcolor_override"	"255 255 255 255"
 		
 		"autoResize"		"0"
 		"pinCorner"			"0"
