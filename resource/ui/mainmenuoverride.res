@@ -700,7 +700,7 @@
 			"textinsetx"				"0"
 			"use_proportional_insets"	"1"
 			"font"						"VersionFont2"
-			"labelText"					"V0.2"
+			"labelText"					"v0.3"
 			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
