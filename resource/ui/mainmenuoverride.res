@@ -547,25 +547,32 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"7HUD"
+		
+		"visible"		"1"
+		
 		"xpos"			"53"
 		"ypos"			"65"
 		"zpos"			"11"
+		
 		"wide"			"102"
 		"tall"			"14"
-		"visible"		"1"
 		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"102"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"3"
+			
 			"visible"		"1"
 			"enabled"		"1"
+			
+			"xpos"			"0"
+			"ypos"			"0"
+			
+			"wide"			"102"
+			"tall"			"14"
+			
+			"autoResize"	"0"
+			"pinCorner"		"3"
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
@@ -581,8 +588,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Highlight"
-			"armedFgColor_override" "OmpText"
+			"defaultFgColor_override"	"Highlight"
+			"armedFgColor_override"		"OmpText"
 			"depressedFgColor_override" "OmpText"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -606,55 +613,117 @@
 	}
 	"Version"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"Version"
-		"xpos"			"53"
-		"ypos"			"75"
-		"zpos"			"11"
-		"wide"			"45"
-		"tall"			"14"
-		"visible"		"1"
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Version"
+		"xpos"							"53"
+		"ypos"							"75"
+		"zpos"							"11"
+		"wide"							"45"
+		"tall"							"14"
+		"visible"						"1"
 		
 		"SubButton"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"100"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont2"
-			"labelText"		"V5.10"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
+			"ControlName"				"CExLabel"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"100"
+			"tall"						"14"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"textinsetx"				"0"
+			"use_proportional_insets"	"1"
+			"font"						"VersionFont2"
+			"labelText"					"V5.10"
+			"textAlignment"				"west"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			"paintbackground"			"0"
 			
-			"defaultFgColor_override" "OmpText"
+			"defaultFgColor_override"	"OmpText"
 			
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"9999"
+				"ypos"					"9999"
+				"zpos"					"1"
+				"wide"					"12"
+				"tall"					"12"
+				"visible"				"1"
+				"enabled"				"1"
+				"image"					"glyph_create"
+				"scaleImage"			"1"
+			}	
+		}		
+	}
+	
+	"ModVersion"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"ModVersion"
+		
+		"visible"						"1"
+		
+		"xpos"							"73"
+		"ypos"							"75"
+		"zpos"							"11"
+		
+		"wide"							"45"
+		"tall"							"14"
+		
+		"SubButton"
+		{
+			"ControlName"				"CExLabel"
+			"fieldName"					"SubButton"
+			
+			"visible"					"1"
+			"enabled"					"1"
+			
+			"xpos"						"0"
+			"ypos"						"0"
+			
+			"wide"						"100"
+			"tall"						"14"
+			
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"tabPosition"				"0"
+			"textinsetx"				"0"
+			"use_proportional_insets"	"1"
+			"font"						"VersionFont2"
+			"labelText"					"V0.2"
+			"textAlignment"				"west"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			"paintbackground"			"0"
+			
+			"fgcolor_override"			"0 0 0 175"
+			
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"9999"
+				"ypos"					"9999"
+				"zpos"					"1"
+				"wide"					"12"
+				"tall"					"12"
+				"visible"				"1"
+				"enabled"				"1"
+				"image"					"glyph_create"
+				"scaleImage"			"1"
 			}	
 		}		
 	}

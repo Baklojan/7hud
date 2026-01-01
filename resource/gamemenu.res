@@ -5,58 +5,58 @@
 		"label"			"#MMenu_ResumeGame"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"subimage"		"icon_resume"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame"
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
+		"label"			"#MMenu_NewGame"
+		"command"		"quickplay"
+		"subimage"		"glyph_server"
+		"OnlyInGame"	"1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Servers"
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
+		"label"			"Servers"
+		"command"		"OpenServerBrowser"
+		"subimage"		"glyph_server_browser"
+		"OnlyAtMenu"	"1"
 	}
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer"
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
+		"label"			"#MMenu_ChangeServer"
+		"command" 		"OpenServerBrowser"
+		"subimage"		"glyph_server_browser"
+		"OnlyInGame"		"1"
 	}
 	"mainmenu_image"
 	{
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu"	"1"
 	}
 	"mainmenu_image2"
 	{
-		"OnlyInGame" "1"
+		"OnlyInGame"	"1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		"label"			"Replays"
+		"command"		"engine replay_reloadbrowser"
+		"subimage"		"glyph_tv"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "Workshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
+		"label"			"Workshop"
+		"command"		"engine OpenSteamWorkshopDialog"
+		"subimage"		"glyph_steamworkshop"
 	}
 	"FavoriteServer2"
 	{
-		"label" "6"
-		"command" "engine Server1"
+		"label"			"6"
+		"command"		"engine Server1"
     }
 	"FavoriteServer1"
 	{
-		"label" "7"
-		"command" "engine Server2"
+		"label"			"7"
+		"command"		"engine Server2"
 	}
 	"7HUD"
 	{
