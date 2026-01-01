@@ -2,6 +2,36 @@
 7HUD through the years
 ======================
 
+v5.15
+10/11/2025
+
+- fixed medals missing from 9v9+ scoreboard
+- fixed backpack/store page tabs (again)
+
+v5.14
+03/19/2025
+
+- fixed missing backpack tabs
+- redesigned matchmaking ui to incorporate dimmer
+
+v5.13
+03/16/2025
+
+- fixed missing store page tabs
+- updated war paint inspection panel to support all seed values (thanks impale1!)
+- fixed overscaled text on some buttons in main menu (thanks ShinySir!)
+
+v5.12
+07/09/2023
+
+- fixed mvm currency placement
+
+v5.11
+06/28/2021
+
+- fixed tip zpos issue on loading screen
+- fixed missing scroll bar on motd
+
 v5.10
 10/23/2020
 
