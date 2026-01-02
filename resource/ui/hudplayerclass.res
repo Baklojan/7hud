@@ -1,18 +1,104 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	"Crosshair1"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair1"
+		
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"198"
+		
+		"wide"				"16" // Crosshair1 size
+		"tall"				"16" // Crosshair1 size
+		
+		"Alpha"				"255" // Crosshair1 opacity
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/xhairs/xhair1"
+		"drawcolor"			"G_Crosshair1Color"
+	}
+	
+	"Crosshair2"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair2"
+		
+		"visible"			"1" // Crosshair2 enabled
+		"enabled"			"1" // Crosshair2 enabled
+		
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"197"
+		
+		"wide"				"20" // Crosshair2 size
+		"tall"				"20" // Crosshair2 size
+		
+		"Alpha"				"0" // Crosshair2 opacity
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/xhairs/xhair2"
+		"drawcolor"			"G_Crosshair2Color"
+	}
+	
+	"Crosshair3"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair3"
+		
+		"visible"			"1" // Crosshair3 enabled
+		"enabled"			"1" // Crosshair3 enabled
+		
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"196"
+		
+		"wide"				"16" // Crosshair3 size
+		"tall"				"16" // Crosshair3 size
+		
+		"scaleImage"		"1"
+		"Alpha"				"175" // Crosshair3 opacity
+		"image"				"replay/thumbnails/xhairs/xhair3"
+		"drawcolor"			"G_Crosshair3Color"
+	}
+
+	"Hitmarker"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Hitmarker"
+		
+		"enabled"			"0"
+		"visible"			"0"
+		
+		"xpos"				"c-4"
+		"ypos"				"c-4"
+		"zpos"				"20"
+		
+		"wide"				"8"
+		"tall"				"8"
+		
+		"scaleImage"		"1"	
+		"Alpha"				"0"
+		"image"				"replay/thumbnails/hitmarker_red"
+		"teambg_2"			"replay/thumbnails/hitmarker_red"
+		"teambg_3"			"replay/thumbnails/hitmarker_blue"
+	}
+
 	// player class data
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"10"		//0
-		"ypos"			"18"	//18
+		"xpos"			"0"		//0
+		"ypos"			"0"	//18
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"		
 	}
+	
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"

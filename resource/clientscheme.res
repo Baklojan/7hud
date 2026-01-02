@@ -24,6 +24,14 @@ Scheme
 		
 		//"Control Name"		"R   G   B   Transparency"	//Description
 
+		// Crosshairs
+		"G_Crosshair1Color"		"255 255 255 255" // Crosshair1 color
+		"G_Crosshair2Color"		"255 255 255 255" // Crosshair2 color
+		"G_Crosshair3Color"		"255 255 255 255" // Crosshair3 color
+		"G_Hitmarker1Color"		"255 0 0 255" // Hitmarker1 color
+		"G_Hitmarker2Color"		"255 0 0 255" // Hitmarker2 color
+		"G_Hitmarker3Color"		"255 0 0 255" // Hitmarker3 color
+
 		"HudBGStatus"		"0 0 0 0"				//Transparent BG for HP/Ammo boxes
 		"Health"			"240 240 240 225"		//Normal health color			
 		"Buff"				"71 168 198 255" 		//Boosted health color
@@ -556,79 +564,6 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		// fonts are used in order that they are listed
-		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace
-		
-
-		
-		
-		"fogCrosshair"			//fog's crosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"fogCrosshairSmall"			//fog's crosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		
-
-		"knucklesCrosshair"			//knuckles's crosshair
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"knucklesCrosshairSmall"			//knuckles's crosshair
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}		
-		
-		
-		"BarCrosshair"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"32"
-				"additive"		"0"
-				"antialias"	"1"
-				"outline" "1"
-			}
-		}
-		
-		
-		
 		"SymbolS"
 		{
 			"1"
